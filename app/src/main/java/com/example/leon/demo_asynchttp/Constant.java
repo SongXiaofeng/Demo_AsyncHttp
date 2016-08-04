@@ -112,7 +112,8 @@ public class Constant {
 	
 //	/*********SharedPreferences store parameters as above**************/
 //   public static final String SERVICER = "http://121.40.137.250:80/spk-server/";//domestic
-	public static final String SERVICER = "https://52.58.165.254:443/spk-server/";//abroad
+	//public static final String SERVICER = "https://52.58.165.254:443/spk-server/";//abroad
+    public static final String SERVICER = "http://192.168.200.59:8080/spk-server/";
 //	public static final String SERVICER = "http://52.58.165.254:80/spk-server/";//abroad
 //  public static final String SERVICER = "http://yangxingwangzl.6655.la:48912/spk-server/";    
 //	public static final String SERVICER = "http://yangxingwangzl.6655.la:25312/spk-server/";

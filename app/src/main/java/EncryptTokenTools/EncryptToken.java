@@ -206,25 +206,20 @@ public class EncryptToken {
             e.printStackTrace();
             return null;
         }
-
         mRequestTimes++;
-
         return encryptedToken;
     }
-
     public String getToken() {
         String token = null;
 
         if ((null == mUserId) || (0 == mBase)) {
             return null;
         }
-
         token = getEncryptedToken(this.mUserId,
                 this.getmBase(), this.mFactor);
 
         savePreferenceToken(token);
         savePreferenceRequestTimes(this.mRequestTimes);
-
         return token;
     }
 
